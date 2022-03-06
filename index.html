@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<title>Box Office Revenue Visualization Dashboard</title>
+
+<!-- bring in bootstrap stylesheet-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!--making navigation bar-->
+
+<nav>
+  <div class="left-links">
+  </div>
+  
+  <div class = "dropdown">
+    <a class ="nav-link">Plots</a>
+    <div class = "dropdown-content">
+      <a href="Visualizations/budget.html">Budget</a>
+      <a href="Visualizations/popularity.html">Popularity</a>
+      <a href="Visualizations/model.html">Predictability Matrix</a>
+      <a href="Visualizations/treegraphs.html">Tree Graphs</a>
+      <a href="Visualizations/graphs.html">Additional Graphs</a>
+    </div>
+  </div>
+
+  <a class="nav-link" href="data.html">Data</a>
+
+  </nav>
+<!--making sidebar navigation-->
+<div id="mySidenav" class="sidenav">
+  
+  <a href="Visualizations/budget.html">
+    <img src="Images/budget_vs_revenue.PNG" alt="Budget vs. Revenue" class="img-thumbnail">
+  Budget Correlation
+  </a>
+  <a href="Visualizations/popularity.html">
+      <img src="Images/popularity_vs_revenue.PNG" alt="Popularity vs. Revenue" class="img-thumbnail">
+  Popularity Correlation
+    </a>
+  <a href="Visualizations/model.html">
+    <img src="Images/predicted_vs_measured.png" alt="Predicted vs. Max Measured" class="img-thumbnail">
+  Predicted vs Measured 
+</a>
+<a href="Visualizations/treegraphs.html">
+  <img src="Visualizations/small_tree.png" alt="Tree Graphs" class="img-thumbnail">
+Tree Graphs
+</a>
+<a href="Visualizations/graphs.html">
+  <img src="Visualizations/moviespermonth.png" alt="Additional Graphs" class="img-thumbnail">
+  Additional Graphs
+</a>
+
+</div>
+
+<br> 
+<div class = "content">
+<h1> 🎥 Box Office Revenue Prediction 🎥 </h1>
+<p>The film industry has grown into a billion-dollar business especially with the advancement of technology and cinematography. <br>
+  There are many features that can turn a film into a box office success or a flop. Here we are carrying  out a prediction model to understand the factors behind a successful movie and predict its revenue. 
+</p>
+</div>
+<div class="container">
+  <div class="row">
+    <div
+     class="col-sm"> 
+     
+    </div>
+    <div class="col col-10"
+     class="col-sm"> <img src="Images/correlation_matrix.PNG" alt="Budget vs. Revenue" class="img-thumbnail">
+      
+    </div>
+  </div>
+</div>
+       <!-- <img src="Images/correlation_matrix.PNG" alt="Budget vs. Revenue" class="img-thumbnail"> -->
+    </div>
+</div>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label="budget <= 118000000.0\nmse = 2.6543203184095796e+16\nsamples = 898\nvalue = 70511171.3"] ;
+1 [label="budget <= 28500000.0\nmse = 7031635939051225.0\nsamples = 861\nvalue = 46132916.6"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="popularity <= 16.1\nmse = 2479005689265274.0\nsamples = 675\nvalue = 24108931.0"] ;
+1 -> 2 ;
+3 [label="mse = 1393721091961267.2\nsamples = 657\nvalue = 20753900.4"] ;
+2 -> 3 ;
+4 [label="mse = 2.474293527039913e+16\nsamples = 18\nvalue = 126240010.8"] ;
+2 -> 4 ;
+5 [label="popularity <= 15.8\nmse = 1.5421837841956282e+16\nsamples = 186\nvalue = 126761822.6"] ;
+1 -> 5 ;
+6 [label="mse = 7134393382172630.0\nsamples = 161\nvalue = 101809745.0"] ;
+5 -> 6 ;
+7 [label="mse = 3.901139114000714e+16\nsamples = 25\nvalue = 279517224.4"] ;
+5 -> 7 ;
+8 [label="budget <= 227000000.0\nmse = 1.554307738197627e+17\nsamples = 37\nvalue = 605653182.7"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="day <= 27.5\nmse = 7.996420285456333e+16\nsamples = 35\nvalue = 523871209.3"] ;
+8 -> 9 ;
+10 [label="mse = 5.773466201075533e+16\nsamples = 33\nvalue = 473326778.2"] ;
+9 -> 10 ;
+11 [label="mse = 8261510613985536.0\nsamples = 2\nvalue = 1049533292.8"] ;
+9 -> 11 ;
+12 [label="week <= 34.0\nmse = 7.029284153683302e+16\nsamples = 2\nvalue = 1537967680.0"] ;
+8 -> 12 ;
+13 [label="mse = 0.0\nsamples = 1\nvalue = 1405403694.0"] ;
+12 -> 13 ;
+14 [label="mse = 0.0\nsamples = 1\nvalue = 2068223624.0"] ;
+12 -> 14 ;
+}

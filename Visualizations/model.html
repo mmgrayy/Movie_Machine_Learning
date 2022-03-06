@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang = "en-us">
+<head> 
+  <style>
+    img {
+      float: left;
+    }
+    </style>
+<!-- bring in bootstrap stylesheet-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <nav>
+    <div class="left-links">
+      <a class="links selected" href="../index.html">Main Page</a>
+      </div>
+  
+      <div class = "dropdown">
+        <a class ="nav-link">Plots</a>
+        <div class = "dropdown-content">
+          <a href="budget.html">Budget</a>
+          <a href="popularity.html">Popularity</a>
+          <a href="model.html">Predictability Matrix</a>
+          <a href="treegraphs.html">Tree Graphs</a>
+          <a href="graphs.html">Additional Graphs</a>
+        </div>
+      </div>
+
+      <a class="nav-link" href="../data.html">Data</a>
+    
+      </nav>
+      <br>
+      <h1>Predictability Matrix</h1>
+      <div class = "container">         
+                <a href="model.html">
+                  <div class ="img-with-text">
+                  <img src="../Images/predicted_vs_measured.png" alt="Predicted vs Measured"
+                  style = "width: 475px; height: 350px; margin-right:20px;"/>
+                  </a>
+
+              This scatter plot represens the relationship between the measured and predicted values across the regression line for linear regression.
+
+      </div>
+      </div>
+</body>
+</html>
